@@ -1,0 +1,27 @@
+{"intents": [
+    {"tag": "greeting",
+    "patterns": ["Hi", "How are you?", "Is anyone there?", "Hello", "Good day", "Whats up"],
+    "responses": ["Hello!","Good to see you!", "Hi there, what do you need?"],
+    "context_set": ""
+    },
+    {"tag": "goodbye",
+    "patterns": ["cya", "Goodbye", "See you later", "I am leaving", "Have a good dat"],
+    "responses": ["Talk to you later", "Goodbye!", "Have a good one"],
+    "context_set": ""
+    },
+    {"tag": "age",
+    "patterns": ["how old", "what is your age", "how old are you", "age?"],
+    "responses": ["I was born on July 15th 2022", "I was just created this year"],
+    "context_set": ""
+    },
+    {"tag": "name",
+    "patterns": ["What is your name?", "What should I call you?", "Do you have a name?", "whats your name"],
+    "responses": ["Unit 1", "I was given the name Unit 1", "You can call me U1 or Unit 1"],
+    "context_set": ""
+    },
+    {"tag": "current_activity",
+    "patterns": ["What are you doing", "what are you up to", "What do you do all day", "What do you do"],
+    "responses": ["I talk to people and collect data", "I collect data by talking to people", "I talk to people", "I collect data"],
+    "context_set": ""
+    }
+]}
